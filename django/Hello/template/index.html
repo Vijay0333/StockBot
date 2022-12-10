@@ -1,0 +1,52 @@
+
+    <!DOCTYPE html>
+   <!--> {% load static %}
+    
+        <meta charset="UTF-8">
+        <title>Responsive Navigation Bar</title>
+        <!---Fontawesome CDN Link-->
+        <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+        <!---Custom CSS Filw Link--->
+        <head>
+        <link rel="stylesheet" href="{% static 'ok.css' %}">
+        
+    </head>
+    <body>
+
+      <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+          <i class="fas fa-bars"></i>
+        </label>
+        <label class="logo">StockSot</label>
+
+
+
+
+        
+      
+        <ul>
+          <li><a class="active" href="#index2.html">Home</a></li>
+          <li><a href="About.html">About</a></li>
+          <li><a href="#">Contect</a></li>
+          <li><a href="#">Market</a></li>
+          <li><a href="#">SharePrices</a></li>
+          <li><a href="#">Trade</a></li>
+
+          <div class="search">
+            <form action="#">
+                <input type="text"
+                    placeholder=" Search Courses"
+                    name="search">
+                <button>
+                    <i class="fa fa-search"
+                        style="font-size: 18px;">
+                    </i>
+                </button>
+            </form>
+        </div>
+
+        </ul>
+      </nav>
+    </body>
+    </html>

@@ -1,0 +1,1 @@
+hi this is vijay sahani from juet guna. and this is a static file this static file can be accessed by anyone.
